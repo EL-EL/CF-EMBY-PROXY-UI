@@ -8,6 +8,7 @@ compatibility_flags = ["enable_request_signal"] # 开启 Request.signal 客户�
 workers_dev = false 
 preview_urls = false
 
+
 [build]
 command = "npm run build:worker"
 watch_dir = ["worker", "vite.worker.config.js", "scripts/build-worker.mjs", "scripts/worker-build-lib.mjs"]
