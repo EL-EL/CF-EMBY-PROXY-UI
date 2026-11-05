@@ -33,7 +33,7 @@ crons = ["0 * * * *"]
 
 [[kv_namespaces]]
 binding = "ENI_KV" # 代码优先读 ENI_KV，其次读 KV
-id = "你的_KV_ID" # 你的 KV 命名空间 ID (请替换为实际的 32 位字母数字组合)
+id = "f72280b2e5514ab0b75ddcc836d02ac8" # 你的 KV 命名空间 ID (请替换为实际的 32 位字母数字组合)
 
 # D1 数据库绑定声明 (D1 Database Binding)
 [[d1_databases]]
