@@ -5,7 +5,7 @@ compatibility_flags = ["enable_request_signal"] # 开启 Request.signal 客户�
 
 # 默认关闭 workers.dev 子域，避免一次 deploy 就把 test.<account>.workers.dev 对外暴露。
 # 想用子域快速试跑时改为 true，或直接删掉这两行。
-workers_dev = false
+workers_dev = false 
 preview_urls = false
 
 [build]
